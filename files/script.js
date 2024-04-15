@@ -19,3 +19,13 @@ window.addEventListener("scroll",() =>{
 })
 
 
+
+/*window.addEventListener('scroll', function() {
+    var banner = document.getElementById('image');
+    // Show the banner when the user scrolls down a certain amount (e.g., 200px from the top)
+    if (window.scrollY > 700) {
+        banner.style.display = 'block';
+    } else {
+        banner.style.display = 'none';
+    }
+});*/
