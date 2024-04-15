@@ -190,25 +190,42 @@ body {
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     align-items: center;
-    /*gap: 1.5rem;*/
+    gap: 1.5rem;
     width: 90%;
     justify-content: space-between;
     min-height: 100vh;
     padding: 50px;
 }
 
+
 .about-img {
     display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    width: fit-content;
+    max-width: 800px;
+    margin: 0 auto;
+    background-position: center;
     padding-right: 10%;
     margin-top: 2.5%;
-    margin-top: 7.5%;
-    opacity: 1;
+    margin-top: 7.0%;
+    border-radius: 50px;
+    /*scroll effect
+    animation: slide-in 1s forwards; */
+   
 }
+/*@keyframes slide-in {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}*/
 
-.abt-res {
+
+
+
+
+.abt-res{
     width: 100%;
     height: auto;
     max-width: 492px;
